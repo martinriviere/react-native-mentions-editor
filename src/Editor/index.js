@@ -306,7 +306,7 @@ export class Editor extends React.Component {
   };
 
   formatMentionNode = (txt, key) => (
-    <Text key={key} style={[styles.mention, editorStyles.mentions]}>
+    <Text key={key} style={[styles.mention, this.props.editorStyles.mentions]}>
       {txt}
     </Text>
   );
