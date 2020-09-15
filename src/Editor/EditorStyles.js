@@ -40,7 +40,6 @@ export default StyleSheet.create({
   mention: {
     fontSize: 16,
     fontWeight: "400",
-    backgroundColor: "rgba(36, 77, 201, 0.05)",
     color: "#244dc9"
   },
   placeholderText: {
